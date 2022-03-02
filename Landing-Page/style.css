@@ -1,0 +1,29 @@
+body {
+    max-width: auto;
+    max-height: auto;
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+
+    background-color: rgb(21, 3, 53);
+    color: white;
+
+    height: 200px;
+    width: auto;
+}
+
+.header-item-1 {
+    display: flex;
+    background-color: rgb(230, 96, 7);
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
