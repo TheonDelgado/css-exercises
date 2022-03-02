@@ -4,26 +4,64 @@ body {
     margin: auto;
 }
 
-.header-container {
+.header {
     display: flex;
-    flex-direction: column;
-    justify-content: top;
+    background-color: rgba(4, 192, 76, 0.932);
+    height: 400px;
+    width: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 0px;
+}
 
-    background-color: rgb(21, 3, 53);
-    color: white;
+.logo {
+    display:flex;
+    background-color: blue;
+    justify-content: space-between;
+    height: 56px;
+    width: 56px;
+    border: solid black;
+    align-items: center;
+    justify-content: center;
 
-    height: 200px;
+}
+
+.links-list {
+    display: flex;
+    background-color: red;
+    height: 56px;
+    width: auto;
+    border: solid black;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.link {
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.quote-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 630px;
+    margin-top: -300px;
+    margin-left: 100px;
+    border: solid black;
+    height: 250px;
     width: auto;
 }
 
-.header-item-1 {
+.quote {
     display: flex;
-    background-color: rgb(230, 96, 7);
-    flex-direction: column;
-}
+    border: solid black;
+    height: 24px;
+    width: 24px;
+    margin-right: 66px;
 
-.links {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
 }
