@@ -1,67 +1,64 @@
 body {
+    display: flex;
     max-width: auto;
     max-height: auto;
     margin: auto;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
-    background-color: rgba(4, 192, 76, 0.932);
+    border: solid black;
+    background-color: crimson;
     height: 400px;
     width: auto;
-    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.top{
+    display: flex;
     justify-content: space-between;
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-top: 0px;
+    border: solid black
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    border: solid blue;
+    height: inherit;
+
 }
 
 .logo {
-    display:flex;
+    display: flex;
     background-color: blue;
-    justify-content: space-between;
-    height: 56px;
-    width: 56px;
-    border: solid black;
-    align-items: center;
-    justify-content: center;
-
+    height: fit-content;
+    width: fit-content;
 }
 
 .links-list {
     display: flex;
-    background-color: red;
-    height: 56px;
-    width: auto;
-    border: solid black;
-    align-items: center;
-    justify-content: space-between;
-    
+    background-color: red; 
+    height: fit-content;
+    width: fit-content;
 }
 
-.link {
+.header .image {
     display: flex;
-    margin-left: 24px;
-    margin-right: 24px;
+    background-color: purple;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
 }
 
-.quote-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 630px;
-    margin-top: -300px;
-    margin-left: 100px;
+.header .quote-area {
+    display:flex;
+    height: fit-content;
+    width: 176px;
+    flex-direction: column;
+    font-size: 12px;
     border: solid black;
-    height: 250px;
-    width: auto;
-}
-
-.quote {
-    display: flex;
-    border: solid black;
-    height: 24px;
-    width: 24px;
-    margin-right: 66px;
-
+    word-wrap: normal;
+    align-self: center;
 }
